@@ -58,6 +58,16 @@ python dawson_data_agent.py
 Open the Gradio UI at:
 `http://127.0.0.1:7860`
 
+## Docker Deployment
+
+To run the Dawson Data Agent using Docker:
+
+1. Make sure Docker is installed.
+2. Set your Anthropic API key:
+
+```bash
+export ANTHROPIC_API_KEY="sk-ant-..."
+
 ## Data
 
 Put your dataset files in the `data/` folder:
