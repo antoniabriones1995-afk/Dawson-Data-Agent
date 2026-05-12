@@ -1,0 +1,11 @@
+services:
+  dawson-data-agent:
+    build: .
+    ports:
+      - "7860:7860"
+    environment:
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+    volumes:
+      - ./data:/app/data
+      - ./chroma_db:/app/chroma_db
+      
